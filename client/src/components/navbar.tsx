@@ -18,15 +18,13 @@ export default function Navbar() {
     <nav className="sticky top-0 z-50 w-full bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60 border-b border-slate-100">
       <div className="container mx-auto px-4 md:px-6 h-16 flex items-center justify-between">
         {/* Logo */}
-        <Link href="/">
-          <a className="flex items-center space-x-2" data-testid="link-logo">
+        <Link href="/" className="flex items-center space-x-2" data-testid="link-logo">
             <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
               <span className="text-white font-bold text-lg">D</span>
             </div>
             <span className="font-heading font-bold text-xl tracking-tight text-primary hidden sm:inline-block">
               Dipsa Enterprises
             </span>
-          </a>
         </Link>
 
         {/* Desktop Navigation */}
