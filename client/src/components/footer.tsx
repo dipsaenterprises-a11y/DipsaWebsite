@@ -47,15 +47,15 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start space-x-3 text-slate-400">
                 <MapPin size={20} className="text-primary mt-1 shrink-0" />
-                <span>123 Business Park, Industrial Zone,<br />Mumbai, Maharashtra 400001</span>
+                <span>Chandrapur Colony 7, Matabari,<br />Udaipur, Gomati District,<br />Tripura, 799120</span>
               </li>
               <li className="flex items-center space-x-3 text-slate-400">
                 <Phone size={20} className="text-primary shrink-0" />
-                <span>+91 22 1234 5678</span>
+                <span>(+91) 8259076839</span>
               </li>
               <li className="flex items-center space-x-3 text-slate-400">
                 <Mail size={20} className="text-primary shrink-0" />
-                <span>contact@dipsaenterprises.com</span>
+                <span>dipsaenterprises@gmail.com</span>
               </li>
             </ul>
           </div>
