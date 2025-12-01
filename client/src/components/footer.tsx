@@ -18,13 +18,13 @@ export default function Footer() {
               Pioneering hygiene solutions for modern living. Our brands OCTO WASH and DEXTA set the standard for cleanliness and purity in every home.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-primary hover:text-white transition-colors duration-300" aria-label="Facebook">
+              <a href="https://www.facebook.com/profile.php?id=61575655732921" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-primary hover:text-white transition-colors duration-300" aria-label="Facebook">
                 <Facebook size={18} />
               </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-primary hover:text-white transition-colors duration-300" aria-label="Twitter">
+              <a href="https://x.com/Octo_wash" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-primary hover:text-white transition-colors duration-300" aria-label="Twitter">
                 <Twitter size={18} />
               </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-primary hover:text-white transition-colors duration-300" aria-label="Instagram">
+              <a href="https://www.instagram.com/dipsaenterprises" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-primary hover:text-white transition-colors duration-300" aria-label="Instagram">
                 <Instagram size={18} />
               </a>
             </div>
