@@ -253,7 +253,12 @@ export default function Home() {
               bulk cleaning solutions, we are here to help.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
-              <Button size="lg" className="bg-primary hover:bg-blue-700 text-lg h-14 px-10">
+              <Button 
+                size="lg" 
+                className="bg-primary hover:bg-blue-700 text-lg h-14 px-10"
+                onClick={() => window.open('https://wa.me/8259076839', '_blank')}
+                data-testid="btn-contact-sales"
+              >
                 Contact Sales
               </Button>
               <Button size="lg" variant="outline" className="text-lg h-14 px-10">
