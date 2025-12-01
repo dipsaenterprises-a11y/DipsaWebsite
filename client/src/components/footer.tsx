@@ -1,4 +1,5 @@
 import { Facebook, Twitter, Instagram, Mail, Phone, MapPin } from "lucide-react";
+import logo from "@assets/Logo_1764581843061.png";
 
 export default function Footer() {
   return (
@@ -8,9 +9,7 @@ export default function Footer() {
           {/* Company Info */}
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-8 h-8 bg-white/10 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">D</span>
-              </div>
+              <img src={logo} alt="Dipsa Enterprises" className="h-10 w-auto" />
               <span className="font-heading font-bold text-xl tracking-tight">
                 Dipsa Enterprises
               </span>

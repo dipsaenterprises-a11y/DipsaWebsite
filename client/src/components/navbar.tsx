@@ -2,6 +2,7 @@ import { Link } from "wouter";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
+import logo from "@assets/Logo_1764581843061.png";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,9 +20,7 @@ export default function Navbar() {
       <div className="container mx-auto px-4 md:px-6 h-16 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center space-x-2" data-testid="link-logo">
-            <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-lg">D</span>
-            </div>
+            <img src={logo} alt="Dipsa Enterprises" className="h-10 w-auto" />
             <span className="font-heading font-bold text-xl tracking-tight text-primary hidden sm:inline-block">
               Dipsa Enterprises
             </span>
