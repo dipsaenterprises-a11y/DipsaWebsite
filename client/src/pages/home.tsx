@@ -6,7 +6,7 @@ import { ArrowRight, Droplets, Sparkles, CheckCircle2, ShieldCheck, Leaf } from 
 
 // Assets
 import heroImage from "@assets/generated_images/bright_laundry_room_interior.png";
-import octoImage from "@assets/generated_images/blue_water_splash_bubbles.png";
+import octoImage from "@assets/generated_images/agar_incense_sticks_tripura_essence.png";
 import dextaImage from "@assets/generated_images/sparkling_clean_kitchen_surface.png";
 
 const fadeInUp = {
@@ -129,9 +129,9 @@ export default function Home() {
               <div className="absolute -top-10 -left-10 w-64 h-64 bg-[hsl(190,90%,50%)]/10 rounded-full blur-3xl" />
               <div className="absolute -bottom-10 -right-10 w-64 h-64 bg-blue-500/10 rounded-full blur-3xl" />
               <div className="relative rounded-2xl overflow-hidden shadow-2xl border-8 border-white">
-                <img src={octoImage} alt="Octo Wash Freshness" className="w-full h-auto object-cover hover:scale-105 transition-transform duration-700" />
+                <img src={octoImage} alt="Agar Essence of Tripura" className="w-full h-auto object-cover hover:scale-105 transition-transform duration-700" />
                 <div className="absolute inset-0 bg-gradient-to-t from-[hsl(190,90%,20%)]/60 to-transparent flex items-end p-8">
-                  <p className="text-white font-bold text-lg">Deep Ocean Freshness</p>
+                  <p className="text-white font-bold text-lg">Agar Essence of Tripura</p>
                 </div>
               </div>
             </motion.div>
